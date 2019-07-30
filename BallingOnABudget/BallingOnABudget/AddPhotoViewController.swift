@@ -12,10 +12,13 @@ class AddPhotoViewController: UIViewController, UIImagePickerControllerDelegate,
     
 var imagePicker = UIImagePickerController()
 
+    @IBOutlet weak var lilioutlet: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
         imagePicker.delegate = self
     }
+    
+   
 
     @IBAction func takeSelfieTapped(_ sender: Any){
         imagePicker.sourceType = .camera
@@ -35,14 +38,28 @@ var imagePicker = UIImagePickerController()
 }
     @IBAction func savethis(_ sender: Any) {
         if let context = (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer.viewContext {
+            let photoToSave = Photos(entity: Photos.entity(), insertInto: context)
+            photoToSave.captions = lilioutlet.text
+            if let userImage = anything.image {
+                
+               if let userImageData = userImage.pngData() {
+             photoToSave.imageData = userImageData
+                }
+            }
+        
+        
+                (UIApplication.shared.delegate as? AppDelegate)?.saveContext()
+            navigationController?.popViewController(animated: true)
+        }
+            
+        }
            
             
         }
             
-        }
-    
+
   
-    @IBOutlet weak var lilioutlet: UITextField!
+
     
     
 
@@ -62,4 +79,4 @@ var imagePicker = UIImagePickerController()
 
 
 
-}
+

@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9144745C22F0B36B00136D1C /* Balling on a budget iteration 2 !! in Resources */ = {isa = PBXBuildFile; fileRef = 9144745B22F0B36B00136D1C /* Balling on a budget iteration 2 !! */; };
 		9182687E22EF69F000BD8CBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9182687D22EF69F000BD8CBD /* AppDelegate.swift */; };
 		9182688322EF69F000BD8CBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9182688122EF69F000BD8CBD /* Main.storyboard */; };
 		9182688622EF69F000BD8CBD /* BallingOnABudget.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9182688422EF69F000BD8CBD /* BallingOnABudget.xcdatamodeld */; };
@@ -18,7 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9144745B22F0B36B00136D1C /* Balling on a budget iteration 2 !! */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "Balling on a budget iteration 2 !!"; path = "../../../../Desktop/Balling on a budget iteration 2 !!"; sourceTree = "<group>"; };
 		9182687A22EF69F000BD8CBD /* BallingOnABudget.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BallingOnABudget.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9182687D22EF69F000BD8CBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9182688222EF69F000BD8CBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -63,7 +61,6 @@
 				9182687D22EF69F000BD8CBD /* AppDelegate.swift */,
 				9182688122EF69F000BD8CBD /* Main.storyboard */,
 				9182689822EF7DD200BD8CBD /* AddPhotoViewController.swift */,
-				9144745B22F0B36B00136D1C /* Balling on a budget iteration 2 !! */,
 				91C8CB5B22F0905F000AAA2C /* TableViewController.swift */,
 				9182688722EF69F100BD8CBD /* Assets.xcassets */,
 				9182688922EF69F100BD8CBD /* LaunchScreen.storyboard */,
@@ -134,7 +131,6 @@
 				9182688B22EF69F100BD8CBD /* LaunchScreen.storyboard in Resources */,
 				9182688822EF69F100BD8CBD /* Assets.xcassets in Resources */,
 				9182688322EF69F000BD8CBD /* Main.storyboard in Resources */,
-				9144745C22F0B36B00136D1C /* Balling on a budget iteration 2 !! in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
